@@ -39,7 +39,7 @@ internal class Program
             catch (Exception ex)
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
-                break;
+                // break;
             }
         }
     }
