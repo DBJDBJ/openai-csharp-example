@@ -1,6 +1,7 @@
 namespace openai_csharp_example;
 
-public class ChatSession
+//public sealed class ChatSession
+struct ChatSession
 {
     private readonly List<object> _messages;
 

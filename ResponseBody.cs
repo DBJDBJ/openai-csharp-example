@@ -1,16 +1,16 @@
 namespace openai_csharp_example;
 
-public class Message
+struct Message
 {
     public string Content { get; set; }
 }
 
-public class Choice
+struct Choice
 {
     public Message Message { get; set; }
 }
 
-public class ResponseBody
+struct ResponseBody
 {
     public List<Choice> Choices { get; set; }
 }
